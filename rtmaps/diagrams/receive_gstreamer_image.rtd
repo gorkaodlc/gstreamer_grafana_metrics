@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RTMapsDiagram version="4.8.0" EngineVersion="4.13" xmlns="http://schemas.intempora.com/RTMaps/2011/RTMapsFiles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.intempora.com/RTMaps/2011/RTMapsFiles http://www.intempora.com/schemas/RTMaps/2011/RTMapsDiagram.xsd">
+  <RequiredPackages>
+    <File Version="4.5.0"><![CDATA[/opt/rtmaps/packages/rtmaps_python_bridge/rtmaps_python_bridge.pck]]><Relative><![CDATA[%RTMAPS_INSTDIR%/packages/rtmaps_python_bridge/rtmaps_python_bridge.pck]]></Relative></File>
+  </RequiredPackages>
+  <EngineProperties>
+    <Property LongName="Engine.startTimespeed" Type="1">1000</Property>
+    <Property LongName="Engine.startTime" Type="1">0</Property>
+    <Property LongName="Engine.session" Type="3"><![CDATA[unspecified]]></Property>
+    <Property LongName="Engine.recordingAtStart" Type="0">true</Property>
+    <Property LongName="Engine.recording" Type="0">true</Property>
+    <Property LongName="Engine.sequentialStart" Type="0">false</Property>
+    <Property LongName="Engine.shutdownTimeout" Type="1">10000000</Property>
+    <Property LongName="Engine.autoDetectStartTime" Type="0">true</Property>
+    <Property LongName="Engine.coreFunctionsToSaveInDiag" Type="4"><![CDATA[0|-1]]></Property>
+    <Property LongName="Engine.useUTCTimeReference" Type="0">false</Property>
+    <Property LongName="Engine.fastForwardThreshold" Type="1">2000</Property>
+    <Property LongName="Engine.fastRewindThreshold" Type="1">-2000</Property>
+    <Property LongName="Engine.priorityClass" Type="4"><![CDATA[3|0|Shared Time|Preemptive|Auto]]></Property>
+    <Property LongName="Engine.posixTimerThread" Type="4"><![CDATA[3|0|Auto|Timer Interval|Real Time Clock]]></Property>
+    <Property LongName="Engine.posixRealTimeClockIrqFrequency" Type="4"><![CDATA[4|0|1024|2048|4096|8192]]></Property>
+    <Property LongName="Engine.posixPreemptiveSchedulingPolicy" Type="4"><![CDATA[2|0|FIFO|Round Robin]]></Property>
+    <Property LongName="Engine.windowsUsePerformanceCounter" Type="0">true</Property>
+  </EngineProperties>
+  <ClocksManagement>
+    <Property LongName="ClocksManagement.activeClock" Type="4"><![CDATA[1|0|RTMaps_standard_clock]]></Property>
+  </ClocksManagement>
+  <Component InstanceName="DataViewer_1" Model="DataViewer" Version="2.1.1" x="744" y="224" z="0">
+    <Input LongName="DataViewer_1.input_0" Name="input_0">
+      <Property LongName="DataViewer_1.input_0.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_0.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1.input_1" Name="input_1">
+      <Property LongName="DataViewer_1.input_1.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_1.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1.input_2" Name="input_2">
+      <Property LongName="DataViewer_1.input_2.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_2.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1.input_3" Name="input_3">
+      <Property LongName="DataViewer_1.input_3.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_3.subsampling" Type="1">1</Property>
+    </Input>
+    <Property LongName="DataViewer_1.begin_guard" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="DataViewer_1.widget_begin_config" Type="3" SubType="256"><![CDATA[General Configuration]]></ReadOnlyProperty>
+    <Property LongName="DataViewer_1.autoDirty" Type="0">true</Property>
+    <Property LongName="DataViewer_1.run" Type="0">true</Property>
+    <Property LongName="DataViewer_1.alwaysOnTop" Type="4"><![CDATA[4|0|Only at run time|Only at design time|No|Both at run time and design time]]></Property>
+    <Property LongName="DataViewer_1.moveable" Type="0">true</Property>
+    <Property LongName="DataViewer_1.hidden" Type="0">false</Property>
+    <Property LongName="DataViewer_1.title" Type="3"><![CDATA[]]></Property>
+    <Property LongName="DataViewer_1.x" Type="1">191</Property>
+    <Property LongName="DataViewer_1.y" Type="1">459</Property>
+    <Property LongName="DataViewer_1.width" Type="1">530</Property>
+    <Property LongName="DataViewer_1.height" Type="1">420</Property>
+    <Property LongName="DataViewer_1.end_guard" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="DataViewer_1.widget_end_config" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="DataViewer_1.specific_begin_config" Type="3" SubType="256"><![CDATA[Specific Configuration]]></ReadOnlyProperty>
+    <Property LongName="DataViewer_1.nbInputs" Type="1">4</Property>
+    <Property LongName="DataViewer_1.compactMode" Type="0">false</Property>
+    <Property LongName="DataViewer_1.showInfo" Type="0">true</Property>
+    <Property LongName="DataViewer_1.showData" Type="0">true</Property>
+    <Property LongName="DataViewer_1.showPrettyTimestamp" Type="0">true</Property>
+    <Property LongName="DataViewer_1.float32Format" Type="3"><![CDATA[%9g]]></Property>
+    <Property LongName="DataViewer_1.float64Format" Type="3"><![CDATA[%9g]]></Property>
+    <Property LongName="DataViewer_1.integer8Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer16Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer32Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer64Format" Type="3"><![CDATA[%ld]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger8Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger16Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger32Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
+    <Property LongName="DataViewer_1.hexDisplay" Type="0">false</Property>
+    <Property LongName="DataViewer_1.internalState" Type="3" SubType="128"><![CDATA[238;282]]></Property>
+    <Property LongName="DataViewer_1.expandedState" Type="3" SubType="128"><![CDATA[1|PythonBridge_1.latencyOut;0|Info:PythonBridge_1.latencyOut;1|Data:PythonBridge_1.latencyOut;1|PythonBridge_1.jitterOut;0|Info:PythonBridge_1.jitterOut;1|Data:PythonBridge_1.jitterOut;1|PythonBridge_1.bitrateOut;0|Info:PythonBridge_1.bitrateOut;1|Data:PythonBridge_1.bitrateOut;0|]]></Property>
+    <ReadOnlyProperty LongName="DataViewer_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
+    <Property LongName="DataViewer_1.threaded" Type="0">true</Property>
+    <Property LongName="DataViewer_1.priority" Type="1">128</Property>
+    <Property LongName="DataViewer_1.autoStart" Type="0">true</Property>
+  </Component>
+  <Component InstanceName="GS_receive" Model="PythonBridge" Version="4.5.0" x="272" y="200" z="0">
+    <Output LongName="GS_receive.imageOut" Name="imageOut">
+      <Property LongName="GS_receive.imageOut.subsampling" Type="1">1</Property>
+      <Property LongName="GS_receive.imageOut.fifosize" Type="1">16</Property>
+      <Property LongName="GS_receive.imageOut.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="GS_receive.latencyOut" Name="latencyOut">
+      <Property LongName="GS_receive.latencyOut.subsampling" Type="1">1</Property>
+      <Property LongName="GS_receive.latencyOut.fifosize" Type="1">16</Property>
+      <Property LongName="GS_receive.latencyOut.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="GS_receive.jitterOut" Name="jitterOut">
+      <Property LongName="GS_receive.jitterOut.subsampling" Type="1">1</Property>
+      <Property LongName="GS_receive.jitterOut.fifosize" Type="1">16</Property>
+      <Property LongName="GS_receive.jitterOut.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="GS_receive.bitrateOut" Name="bitrateOut">
+      <Property LongName="GS_receive.bitrateOut.subsampling" Type="1">1</Property>
+      <Property LongName="GS_receive.bitrateOut.fifosize" Type="1">16</Property>
+      <Property LongName="GS_receive.bitrateOut.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="GS_receive.fpsOut" Name="fpsOut">
+      <Property LongName="GS_receive.fpsOut.subsampling" Type="1">1</Property>
+      <Property LongName="GS_receive.fpsOut.fifosize" Type="1">16</Property>
+      <Property LongName="GS_receive.fpsOut.periodic" Type="0">false</Property>
+    </Output>
+    <Property LongName="GS_receive.guard_begin" Type="0" SubType="128">true</Property>
+    <Property LongName="GS_receive.internalInputs" Type="3" SubType="128"><![CDATA[]]></Property>
+    <Property LongName="GS_receive.internalOutputs" Type="3" SubType="128"><![CDATA[imageOut;18==;0#latencyOut;0==;0#jitterOut;0==;0#bitrateOut;0==;0#fpsOut;0==;0]]></Property>
+    <Property LongName="GS_receive.internalProperties" Type="3" SubType="128"><![CDATA[port||13||5000||0]]></Property>
+    <ReadOnlyProperty LongName="GS_receive.advance_begin_configuration" Type="3" SubType="256"><![CDATA[Advanced Configuration]]></ReadOnlyProperty>
+    <Property LongName="GS_receive.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
+    <Property LongName="GS_receive.capturePythonPrint" Type="0">true</Property>
+    <Property LongName="GS_receive.useTCPOnly" Type="0">false</Property>
+    <ReadOnlyProperty LongName="GS_receive.pythonPID" Type="1">210967</ReadOnlyProperty>
+    <Property LongName="GS_receive.FileSHMSize" Type="1">15000000</Property>
+    <Property LongName="GS_receive.useNuitka" Type="0">false</Property>
+    <Property LongName="GS_receive.loadingTimeout" Type="1">8000000</Property>
+    <ReadOnlyProperty LongName="GS_receive.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="GS_receive.basic_begin_configuration" Type="3" SubType="256"><![CDATA[Basic Configuration]]></ReadOnlyProperty>
+    <Property LongName="GS_receive.className" Type="3"><![CDATA[rtmaps_python]]></Property>
+    <Property LongName="GS_receive.pythonExecutable" Type="3" SubType="16"><![CDATA[/usr/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../../../../usr/bin/python3]]></Relative></Property>
+    <Property LongName="GS_receive.pythonFilename" Type="3" SubType="80"><![CDATA[/home/VICOMTECH/gortiz/Proyectos/BasqueCCAM_Video_Streaming/2_Codigo/rtmaps_python/rtmaps_gstreamer_encode.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../2_Codigo/rtmaps_python/rtmaps_gstreamer_encode.py]]></Relative></Property>
+    <Property LongName="GS_receive.readingPolicy" Type="4"><![CDATA[5|2|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
+    <Property LongName="GS_receive.samplingPeriod" Type="1" SubType="1">40000</Property>
+    <Property LongName="GS_receive.inputsBehavior" Type="4"><![CDATA[2|0|AllowEmptyInputs|Wait4AllInputs]]></Property>
+    <ReadOnlyProperty LongName="GS_receive.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="GS_receive.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
+    <Property LongName="GS_receive.port" Type="3"><![CDATA[5000]]></Property>
+    <Property LongName="GS_receive.guard_end" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="GS_receive.userSubsectionEnd" Type="0" SubType="512">true</ReadOnlyProperty>
+    <Property LongName="GS_receive.threaded" Type="0">true</Property>
+    <Property LongName="GS_receive.priority" Type="1">128</Property>
+    <Property LongName="GS_receive.autoStart" Type="0">true</Property>
+  </Component>
+  <Component InstanceName="ImageViewer_1" Model="ImageViewer" Version="7.10.6" x="728" y="80" z="0">
+    <Input LongName="ImageViewer_1.input" Name="input">
+      <Property LongName="ImageViewer_1.input.readerType" Type="1">2</Property>
+      <Property LongName="ImageViewer_1.input.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="ImageViewer_1.iDrawingObjects" Name="iDrawingObjects">
+      <Property LongName="ImageViewer_1.iDrawingObjects.readerType" Type="1">2</Property>
+      <Property LongName="ImageViewer_1.iDrawingObjects.subsampling" Type="1">1</Property>
+    </Input>
+    <Output LongName="ImageViewer_1.mouseClick" Name="mouseClick">
+      <Property LongName="ImageViewer_1.mouseClick.subsampling" Type="1">1</Property>
+      <Property LongName="ImageViewer_1.mouseClick.fifosize" Type="1">16</Property>
+      <Property LongName="ImageViewer_1.mouseClick.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="ImageViewer_1.keyPress" Name="keyPress">
+      <Property LongName="ImageViewer_1.keyPress.subsampling" Type="1">1</Property>
+      <Property LongName="ImageViewer_1.keyPress.fifosize" Type="1">16</Property>
+      <Property LongName="ImageViewer_1.keyPress.periodic" Type="0">false</Property>
+    </Output>
+    <Property LongName="ImageViewer_1.title" Type="3"><![CDATA[Image Viewer]]></Property>
+    <Property LongName="ImageViewer_1.x" Type="1">166</Property>
+    <Property LongName="ImageViewer_1.y" Type="1">132</Property>
+    <Property LongName="ImageViewer_1.width" Type="1">320</Property>
+    <Property LongName="ImageViewer_1.height" Type="1">240</Property>
+    <Property LongName="ImageViewer_1.autoResize" Type="0">true</Property>
+    <Property LongName="ImageViewer_1.imagePriority" Type="0">false</Property>
+    <Property LongName="ImageViewer_1.accumulateDrawingObjects" Type="0">false</Property>
+    <Property LongName="ImageViewer_1.updateGeometryOnDeath" Type="0">true</Property>
+    <Property LongName="ImageViewer_1.alwaysOnTop" Type="0">false</Property>
+    <Property LongName="ImageViewer_1.displayBorder" Type="0">true</Property>
+    <Property LongName="ImageViewer_1.threaded" Type="0">true</Property>
+    <Property LongName="ImageViewer_1.priority" Type="1">0</Property>
+    <Property LongName="ImageViewer_1.autoStart" Type="0">true</Property>
+  </Component>
+  <Connection Output="GS_receive.latencyOut" Input="DataViewer_1.input_0"/>
+  <Connection Output="GS_receive.jitterOut" Input="DataViewer_1.input_1"/>
+  <Connection Output="GS_receive.bitrateOut" Input="DataViewer_1.input_2"/>
+  <Connection Output="GS_receive.fpsOut" Input="DataViewer_1.input_3"/>
+  <Connection Output="GS_receive.imageOut" Input="ImageViewer_1.input"/>
+  <RTBoardView ID="JavaStudio1.0">
+    <ConnectionShape InstanceName="DataViewer_1.input_0" color="0"/>
+    <ConnectionShape InstanceName="DataViewer_1.input_1" color="0"/>
+    <ConnectionShape InstanceName="DataViewer_1.input_2" color="0"/>
+    <ConnectionShape InstanceName="DataViewer_1.input_3" color="0"/>
+    <ConnectionShape InstanceName="GStreamer_Converter_1.input_MapsImage" color="0"/>
+    <ConnectionShape InstanceName="GStreamer_Sink_1.input" color="0"/>
+    <ConnectionShape InstanceName="ImageViewer_1.input" color="0"/>
+    <ConnectionShape InstanceName="ncomm_decoder_1.stream_in" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.acceleration_downward" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.acceleration_forward" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.acceleration_laterally" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.downward_velocity" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.east_velocity" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.gps_pos_lla" color="0"/>
+    <ConnectionShape InstanceName="PythonBridge_1.north_velocity" color="0"/>
+  </RTBoardView>
+</RTMapsDiagram>
