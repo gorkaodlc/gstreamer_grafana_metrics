@@ -2,7 +2,7 @@
 
 This repository contains a small toolkit to stream metrics from RTMaps over MQTT and visualise them with InfluxDB and Grafana.  It was created as an example of how to publish GPS data and gstreamer information from a vehicle and monitor it from a teleoperation station.
 
-![Architecture](docs/architecture.png)
+![Architecture](images/architecture.png)
 
 ## Repository layout
 
